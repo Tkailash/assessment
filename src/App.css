@@ -1,0 +1,166 @@
+.App {
+  font-family: Arial, sans-serif;
+  /* text-align: center; */
+  /* margin-top: 50px;
+  padding: 20px; */
+}
+.heading{
+  background-color: #007B7F;
+  padding: 20px;
+}
+.save{
+  padding: 13px;
+  border-color: whitesmoke;
+  color: white;
+  border: none;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: end;
+  /* align-items: center; */
+}
+
+.modal-content {
+  background-color: white;
+  /* padding: 20px; */
+  border-radius: 5px;
+  width: 600px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.bg {
+  background-color: #007B7F;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.close {
+  align-self: flex-end;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+h2 {
+  margin-top: 0;
+  color: white;
+
+}
+
+.input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: 1px solid #007B7F;
+  border-radius: 5px;
+}
+
+.schema-section {
+  margin-bottom: 20px;
+  border: 1px solid #007B7F;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.schema-dropdown {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.schema-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.select {
+width: 80%;
+  padding: 10px;
+  border: 1px solid #007B7F;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.add-schema-btn {
+  background-color: transparent;
+  color: #007B7F;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 34%;
+  border-bottom: 1px solid;
+
+}
+
+.remove-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.modal-buttons {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+.save-btn {
+  background-color: #007B7F;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 20px;
+}
+
+.cancel-btn {
+  background-color: white;
+  color: red;
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  margin-left: 5px;
+}
+.save-segment-btn{
+  padding: 10px;
+    color: white;
+    border: none;
+    margin: 40px;
+}
