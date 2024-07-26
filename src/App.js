@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const webhookUrl = ' https://webhook.site/8192b547-9476-4fa6-b34d-5fe1fc762177'; // Replace with your webhook URL
+  const webhookUrl = ' https://webhook.site/8192b547-9476-4fa6-b34d-5fe1fc762177'; 
 
   return (
     <div className="App">
